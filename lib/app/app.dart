@@ -4,14 +4,9 @@ import 'package:korbi/core/l10n/generated/l10n.dart';
 import 'package:korbi/core/routes/router.dart';
 import 'package:korbi/themes/themes.dart';
 
-class App extends StatefulWidget {
+class App extends StatelessWidget {
   const App({super.key});
 
-  @override
-  State<App> createState() => _AppState();
-}
-
-class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(

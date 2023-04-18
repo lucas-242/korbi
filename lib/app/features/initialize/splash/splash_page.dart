@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:korbi/core/routes/app_routes.dart';
-import 'package:korbi/core/widgets/layout/layout.dart';
 import 'package:korbi/themes/themes.dart';
 
 class SplashPage extends StatefulWidget {
@@ -27,9 +26,9 @@ class _SplashPageState extends State<SplashPage> {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScaffold(
-      child: Center(
-        child: Image.asset(AppAssets.logo),
+    return Scaffold(
+      body: Center(
+        child: Image.asset(AppAssets.logo, width: context.width * 0.7),
       ),
     );
   }

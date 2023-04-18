@@ -7,13 +7,24 @@ extension TypographyExtension on BuildContext {
   TextTheme get _textTheme => GoogleFonts.poppinsTextTheme(_theme.textTheme);
   ColorScheme get _colorsScheme => _theme.colorScheme;
 
+  TextStyle? get appBarTitle => _textTheme.headlineLarge?.copyWith(
+        color: _colorsScheme.onSurface,
+        fontWeight: FontWeight.w400,
+        fontSize: 16,
+      );
+  TextStyle? get appBarSubtitle => _textTheme.headlineLarge?.copyWith(
+        color: _colorsScheme.onSurface,
+        fontWeight: FontWeight.w600,
+        fontSize: 16,
+      );
+
   TextStyle? get headlineLarge => _textTheme.headlineLarge?.copyWith(
         color: _colorsScheme.onSurface,
         fontWeight: FontWeight.w500,
         fontSize: 32,
       );
   TextStyle? get headlineSmall => _textTheme.headlineSmall?.copyWith(
-        color: AppColors.grey,
+        color: _colorsScheme.onSurface,
         fontWeight: FontWeight.w500,
         fontSize: 18,
       );

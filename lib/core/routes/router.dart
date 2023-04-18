@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:korbi/app/features/home/home.dart';
 import 'package:korbi/app/features/initialize/initialize.dart';
+import 'package:korbi/core/widgets/layout/custom_scaffold/custom_scaffold.dart';
 
 import 'app_routes.dart';
 
@@ -14,11 +15,16 @@ abstract class AppRouter {
             pageBuilder: (context, state) =>
                 _customTransition(state, const SplashPage()),
           ),
-          GoRoute(
-            path: AppRoutes.home,
-            pageBuilder: (context, state) =>
-                _customTransition(state, const HomePage()),
-          ),
+          ShellRoute(
+            builder: (context, state, child) => const CustomScaffold(),
+            routes: [
+              GoRoute(
+                path: AppRoutes.home,
+                pageBuilder: (context, state) =>
+                    _customTransition(state, const HomePage()),
+              ),
+            ],
+          )
         ],
       );
 
