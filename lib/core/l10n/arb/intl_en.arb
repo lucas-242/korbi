@@ -1,0 +1,147 @@
+{
+  "all": "All",
+  "add": "Add",
+  "applyFilters": "Apply Filters",
+  "appSubtitle": "Organize your services",
+  "calculator": "Calculator",
+  "calendar": "Calendar",
+  "cancel": "Cancel",
+  "create": "Create",  
+  "date": "Date",
+  "darkMode": "Dark Mode",
+  "defaultValue": "Default Value",
+  "delete": "Delete",
+  "description": "Description",
+  "discountPercentage": "Discount percentage",
+  "discount": "Discount",
+  "discounts": "Discounts",
+  "editServiceType": "Edit Service Type",
+  "email": "Email",
+  "filters": "Filters",
+  "fortnight": "Fortnight",
+  "googleSignIn": "Sign in with Google",
+  "hi": "Hi, {person}!",
+  "@hi": {
+    "placeholders": {
+        "person": {
+          "type": "String"
+        }
+    }
+  },
+  "home": "Home",
+  "lastServices": "Last services",
+  "lightMode": "Light Mode",
+  "logout": "Logout",
+  "logoutConfirmation": "Do you really want to logout?",
+  "myBalance": "My balance",
+  "month": "Month",
+  "name": "Name",
+  "newService": "New service",
+  "newServiceType": "New Service Type",
+  "newType": "New Type",
+  "noResults": "No results",
+  "noServices": "If you have not yet registered any services, click on the button above to register a new one.",
+  "onboardingSubtitle" : "This smart tool is designed to help you better manage your services.",
+  "onboardingTitle1" : "Calculate the\nearnings from ",
+  "onboardingTitle2" : "your\nservices",
+  "orderAlphabetical" : "Alphabetical",
+  "orderBy": "Order by",
+  "orderDateAsc": "Least current to most current",
+  "orderDateDesc": "Most current to least current",
+  "orderValueAsc": "Lowest to highest",
+  "orderValueDesc": "Highest to lowest",
+  "period": "Period",
+  "phone": "Phone",
+  "profile": "Profile",
+  "quantity": "Quantity",
+  "removeFilters": "Remove filters",
+  "save": "Save",
+  "saveType": "Save Type",
+  "saveService": "Save Service",
+  "search": "Search",
+  "service" : "Service",
+  "serviceDetails" : "Service Details",
+  "serviceValue" : "Service Value",
+  "services" : "Services",
+  "serviceType": "Service Type",
+  "serviceTypes": "Service Types",
+  "settings": "Settings",
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "signUpSuccess": "Account created successfully",
+  "share": "Share",
+  "success": "Action done successfully",
+  "today": "Today",
+  "total": "Total value",
+  "totalReceived": "Total received",
+  "update": "Update",
+  "yesterday": "Yesterday",
+  "week": "Week",
+  "wouldYouLikeDelete": "Would you like to delete",
+
+  "noServicesInPeriod": "No services in the selected period.",
+  "noServicesOnDay": "No services on",
+  "noServiceTypes": "No services types registered",
+  "selectServiceType": "Select the service type",
+
+  "alreadyExists": "{property} already exists",
+  "@alreadyExists": {
+    "placeholders": {
+        "property": {
+          "type": "String"
+        }
+    }
+  },
+  "inUse": "{property} is being used",
+  "@inUse": {
+    "placeholders": {
+        "property": {
+          "type": "String"
+        }
+    }
+  },
+  "invalidProperty": "{property} is invalid",
+  "@invalidProperty": {
+    "placeholders": {
+        "property": {
+          "type": "String"
+        }
+    }
+  },
+  "requiredProperty": "{property} is required",
+  "@requiredProperty": {
+    "placeholders": {
+        "property": {
+          "type": "String"
+        }
+    }
+  },
+
+
+  "cantDeleteServiceType": "The service type can't be deleted because it is being used",
+  
+  "unknowError": "An unknown exception occurred",
+  "linkHasExpired": "The link has expired",
+  "linkHasBeenUsed": "The link has already been used",
+  "passwordIsWeak": "Password is too weak. Please, try a different one",
+  "emailIsInvalid": "Email is invalid or badly formatted",
+  "userHasBeenDisabled": "This user has been disabled. Please contact support for help",
+  "emailWasNotFound": "Email was not found, please create an account",
+  "thereIsAnotherAccount": "There is already an account with this credential",
+  "credentialIsInvalid": "The credential is invalid",
+  "verificationCodeIsInvalid": "The verification code entered is invalid",
+  "verificationIdIsInvalid": "The verification ID entered is invalid",
+  "methodNotAllowed": "Method not allowed. Please try another account or contact support for help",
+  "incorrectEmailOrPassword": "Incorrect email or password",
+
+  "errorToAddServiceType": "Error to add service type",
+  "errorToDeleteServiceType": "Error to delete service type",
+  "errorToGetServiceTypes": "Error to get service types",
+  "errorToUpdateServiceType": "Error to update service type",
+
+  "errorToAddService": "Error to add service",
+  "errorToCountServices": "Error to count services",
+  "errorToDeleteService": "Error to delete service",
+  "errorToGetServices": "Error to get service",
+  "errorToUpdateService": "Error to update service"
+}

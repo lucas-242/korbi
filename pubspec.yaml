@@ -1,0 +1,49 @@
+name: korbi
+description: A project to find the best prices between markets.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  bloc: ^8.1.0
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.0.4
+  get_it: ^7.2.0
+  go_router: ^6.5.0
+  google_fonts: ^4.0.3
+  intl: ^0.17.0
+
+dev_dependencies:
+  bloc_test: ^9.1.0
+  build_runner: ^2.3.3
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mockito: ^5.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svgs/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter_intl:
+  enabled: true
+  class_name: AppLocalizations
+  main_locale: en
+  arb_dir: lib/core/l10n/arb
+  output_dir: lib/core/l10n/generated
+  use_deferred_loading: false
